@@ -7,7 +7,7 @@ on:
 # 手动触发
   workflow_dispatch:
   schedule:
-    - cron: "0 3 * * *"
+    - cron: "20 0 * * *"
 
 jobs:
   autogreen:
